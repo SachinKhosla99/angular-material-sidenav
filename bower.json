@@ -1,6 +1,6 @@
 {
   "name": "angular-material-sidenav-custom",
-  "version": "0.0.14",
+  "version": "0.0.6",
   "homepage": "https://github.com/SachinKhosla99/angular-material-sidenav.git",
   "authors": [
     "Sachin Khosla <sachin@digimantra.com>"
@@ -15,7 +15,6 @@
     "material",
     "angular-material",
     "sidenav",
-    "angular-material-sidenav",
     "angular-material-sidenav-custom"
   ],
   "dependencies": {
