@@ -5,7 +5,7 @@
   "authors": [
     "Sachin Khosla <sachin@digimantra.com>"
   ],
-  "description": "Component that build the same sidenav from official angular material website",
+  "description": "Component that build the same sidenav from official angular material website with some custom modifications",
   "main": [
     "./angular-material-sidenav.js",
     "./angular-material-sidenav.css"
