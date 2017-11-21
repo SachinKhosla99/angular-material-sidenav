@@ -157,9 +157,9 @@
                         if (section.children) {
                             section.children.every(function (child) {
                                 if (child.id === id) {
-		                            child.hidden = !value;
-		                            return false;
-		                        };
+                                    child.hidden = !value;
+                                    return false;
+                                };
 
                                 if (child.pages) {
                                     child.pages.every(function (page) {
@@ -430,7 +430,7 @@
             '   aria-controls="docs-menu-{{section.name}}"\n' +
             '   aria-expanded="{{isOpen(section)}}">\n' +
             '   <div flex layout="row">\n' +
-            '       <span ng-if="section.icon" class="{{section.icon}}">&nbsp;&nbsp;</span>{{section.name}}\n' +
+            '       <span ng-if="section.icon" class="{{section.icon}}">&nbsp;&nbsp;</span>\n' +
             '       <span flex></span>\n' +
             '       <span aria-hidden="true" class="md-toggle-icon"\n' +
             '           ng-class="{\'toggled\' : isOpen(section)}">\n' +
@@ -440,6 +440,7 @@
             '   <span class="md-visually-hidden">\n' +
             '       Toggle {{isOpen(section)? \'expanded\' : \'collapsed\'}}\n' +
             '   </span>\n' +
+            '<span class="application-name">{{section.name}}</span>\n' +
             '</md-button>\n' +
             '\n' +
             '<ul id="docs-menu-{{section.name}}" class="menu-toggle-list">\n' +
